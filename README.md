@@ -2,8 +2,17 @@ Excess Kurtosis
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Computes the sample excess kurtosis of an array of values.
+> Computes the sample excess kurtosis.
 
+The [sample excess kurtosis](http://en.wikipedia.org/wiki/Kurtosis) is defined by
+
+<div class="equation" align="center" data-raw-text="g_2 = \frac{\tfrac{1}{N} \sum_{i=0}^{N-1} (x_i - \overline{x})^4}{\left(\tfrac{1}{N} \sum_{i=0}^{N-1} (x_i - \overline{x})^2\right)^2} - 3
+" data-equation="eq:sample_excess_kurtosis">
+	<img src="" alt="Equation for the sample excess kurtosis.">
+	<br>
+</div>
+
+where `x_0, x_1,...,x_{N-1}` are individual data values and `N` is the total number of values in the data set.
 
 ## Installation
 
