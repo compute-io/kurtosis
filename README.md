@@ -8,7 +8,7 @@ The [sample excess kurtosis](http://en.wikipedia.org/wiki/Kurtosis) is defined b
 
 <div class="equation" align="center" data-raw-text="g_2 = \frac{\tfrac{1}{N} \sum_{i=0}^{N-1} (x_i - \overline{x})^4}{\left(\tfrac{1}{N} \sum_{i=0}^{N-1} (x_i - \overline{x})^2\right)^2} - 3
 " data-equation="eq:sample_excess_kurtosis">
-	<img src="" alt="Equation for the sample excess kurtosis.">
+	<img src="https://cdn.rawgit.com/compute-io/kurtosis/cd337b33bf382364905cd924d6b88a848491fcc4/docs/img/eqn1.svg" alt="Equation for the sample excess kurtosis.">
 	<br>
 </div>
 
