@@ -1,7 +1,7 @@
 {
   "name": "compute-kurtosis",
   "version": "1.0.0",
-  "description": "Computes the sample excess kurtosis of an array of values.",
+  "description": "Computes the sample excess kurtosis.",
   "author": {
     "name": "Athan Reines",
     "email": "kgryte@gmail.com"
